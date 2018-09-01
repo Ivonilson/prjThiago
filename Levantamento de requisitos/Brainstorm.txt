@@ -1,0 +1,28 @@
+
+BRAINSTORM para obtenção de requisitos:
+
+- login do usuário ao sistema se dará por meio de e-mail válido (corporativo? pessoal?).
+-  sistema de notifição individual para o email do usuário cadastrado.
+- sistema de notificação global para o email dos usuários cadastrados.
+ - log dos usuários da aplicação para registro das ações realizadas no CRUD (tabelas).
+- log de acesso dos usuários.
+- bloqueio automático do acesso de um usuário mediante ações a serem definidas.  
+- geração de chaves de criptografia para os usuários cadastrados
+- métodos de autentição do usuário (poderá usar login de redes sociais??)
+- módulo gerencial (painel administrativo) que permita realização de bloqueios e outras ações.
+- definir a hieraquia de acesso a aplicação (níve de acesso).
+- O admnistrador master do sistema poderá inativar ou cadastrar outro administrador, nunca remover.
+- o administrador pode cadastrar e remover gerentes da aplicação.
+- O gerente da aplicação não tem permissão para alterar o contéudo, poderá somente visualizar (consultar relatórios).
+- A aplicação deverá possuir ao menos 01 administrador.
+-  log do administrador do sistema para registro das ações realizadas pelo mesmo na aplicação (no CRUD).
+-  O painel administrativo da aplicação manterá a quantidade de usuários e contratos cadastrados.
+- o painel administrativo deverá possuir um filtro por data e um time-line inserção do cadastro dos usuários e dos contratos.
+- o painel administrativo deverá oferecer uma opção de relatório (impressão) para os usuários e contratos cadastrados.
+- o painel administrativo deverá oferecer uma opção de busca e estatísticas de um usuário específico.
+- o painel administrativo deverá oferecer uma opção de inativação de um usuário.
+ obs.: justifica-se o uso de uma time-line para demonstrar o engajamento do sistema.
+- deverá ser implementada futuramente uma app mobile para consumos específicos da aplicação.
+- manter sessão do usuário ativa ??
+
+
